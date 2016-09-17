@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- hdfs-site.xml -->
+<configuration>
+    <property>
+        <name>dfs.replication</name>
+        <value>1</value> </property>
+    <property>
+        <name>dfs.datanode.data.dir</name>
+        <value>file:///Users/neetikasrivastava/project/hadoop/data</value>
+    </property>
+    <property>
+        <name>dfs.namenode.name.dir</name>
+        <value>file:///Users/neetikasrivastava/project/hadoop/name</value>
+    </property>
+</configuration>
